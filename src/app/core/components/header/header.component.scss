@@ -1,0 +1,24 @@
+@import '../../../../assets/styles/global.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $base-color;
+    padding: 0 40px;
+    height: 100px;
+
+    p {
+        font-family: 'Fraunces', serif;
+        color: white;
+    }
+}
+
+.data {
+    font-size: 21px;
+}
+
+.title {
+    display: flex;
+    font-size: 27px;
+}
